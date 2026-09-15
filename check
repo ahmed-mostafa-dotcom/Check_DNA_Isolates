@@ -1,0 +1,76 @@
+#!/bin/bash
+
+REPORT_FILE="pipeline_report.txt"
+LOG_FILE="pipeline.log"
+BACKUP_DIR="backup"
+
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 <folder_name> <operation>" >&2
+    exit 1
+fi
+
+INPUT_FOLDER=$1
+OPERATION=$2
+
+if [ ! -d "$INPUT_FOLDER" ]; then
+    echo "Error: Directory '$INPUT_FOLDER' not found." >&2
+    exit 2
+fi
+
+process_sample() {
+    local file=$1
+    if grep -iq "DNA" "$file"; then
+        echo "- $file : [ DNA Sample ]" >> "$REPORT_FILE"
+        echo "[$(date +'%Y-%m-%d %H:%M:%S')] INFO: DNA sample found -> $file" >> "$LOG_FILE"
+    else
+        echo "- $file : [ RNA/Other Sample ]" >> "$REPORT_FILE"
+        echo "[$(date +'%Y-%m-%d %H:%M:%S')] INFO: Non-DNA sample found -> $file" >> "$LOG_FILE"
+    fi
+}
+
+> "$REPORT_FILE"
+> "$LOG_FILE"
+
+echo "=== DNA Samples Report ===" >> "$REPORT_FILE"
+echo "[$(date +'%Y-%m-%d %H:%M:%S')] INFO: Pipeline started. Folder: $INPUT_FOLDER, Operation: $OPERATION" >> "$LOG_FILE"
+
+case "$OPERATION" in
+    "analyze")
+        echo "Starting analysis..."
+        for file in "$INPUT_FOLDER"/*.txt; do
+            process_sample "$file"
+        done
+        echo "Analysis completed."
+        ;;
+    "backup")
+        echo "Starting backup..."
+        mkdir -p "$BACKUP_DIR"
+        cp "$INPUT_FOLDER"/*.txt "$BACKUP_DIR/" 2>> "$LOG_FILE"
+        if [ $? -eq 0 ]; then
+            echo "[$(date +'%Y-%m-%d %H:%M:%S')] INFO: Backup successful." >> "$LOG_FILE"
+            echo "Backup completed."
+        else
+            echo "[$(date +'%Y-%m-%d %H:%M:%S')] ERROR: Backup failed." >> "$LOG_FILE"
+            exit 3
+        fi
+        ;;
+    "all")
+        echo "Starting full pipeline (backup + analysis)..."
+        mkdir -p "$BACKUP_DIR"
+        cp "$INPUT_FOLDER"/*.txt "$BACKUP_DIR/" 2>> "$LOG_FILE"
+        echo "[$(date +'%Y-%m-%d %H:%M:%S')] INFO: Backup step completed." >> "$LOG_FILE"
+        
+        for file in "$INPUT_FOLDER"/*.txt; do
+            process_sample "$file"
+        done
+        echo "Pipeline completed."
+        ;;
+    *)
+        echo "Error: Invalid operation '$OPERATION'." >&2
+        echo "[$(date +'%Y-%m-%d %H:%M:%S')] ERROR: Invalid operation '$OPERATION'." >> "$LOG_FILE"
+        exit 4
+        ;;
+esac
+
+echo "[$(date +'%Y-%m-%d %H:%M:%S')] INFO: Pipeline finished." >> "$LOG_FILE"
+exit 0

@@ -1,0 +1,11 @@
+=== DNA Samples Report ===
+- /mnt/c/Users/ahmed/OneDrive/Desktop/IYM_Tasks/Task_2//NCBI_Isolate_Samples_DNA_ISO_08_9073.txt : [ DNA Sample ]
+- /mnt/c/Users/ahmed/OneDrive/Desktop/IYM_Tasks/Task_2//NCBI_Isolate_Samples_DNA_ISO_09_4E11.txt : [ DNA Sample ]
+- /mnt/c/Users/ahmed/OneDrive/Desktop/IYM_Tasks/Task_2//NCBI_Isolate_Samples_DNA_ISO_10_B4C1.txt : [ DNA Sample ]
+- /mnt/c/Users/ahmed/OneDrive/Desktop/IYM_Tasks/Task_2//NCBI_Isolate_Samples_RNA_ISO_01_F870.txt : [ RNA/Other Sample ]
+- /mnt/c/Users/ahmed/OneDrive/Desktop/IYM_Tasks/Task_2//NCBI_Isolate_Samples_RNA_ISO_02_AC5C.txt : [ RNA/Other Sample ]
+- /mnt/c/Users/ahmed/OneDrive/Desktop/IYM_Tasks/Task_2//NCBI_Isolate_Samples_RNA_ISO_03_1DC9.txt : [ RNA/Other Sample ]
+- /mnt/c/Users/ahmed/OneDrive/Desktop/IYM_Tasks/Task_2//NCBI_Isolate_Samples_RNA_ISO_04_F5E8.txt : [ RNA/Other Sample ]
+- /mnt/c/Users/ahmed/OneDrive/Desktop/IYM_Tasks/Task_2//NCBI_Isolate_Samples_RNA_ISO_05_FCA3.txt : [ RNA/Other Sample ]
+- /mnt/c/Users/ahmed/OneDrive/Desktop/IYM_Tasks/Task_2//NCBI_Isolate_Samples_RNA_ISO_06_DAA3.txt : [ RNA/Other Sample ]
+- /mnt/c/Users/ahmed/OneDrive/Desktop/IYM_Tasks/Task_2//NCBI_Isolate_Samples_RNA_ISO_07_FF33.txt : [ RNA/Other Sample ]
