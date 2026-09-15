@@ -1,0 +1,15 @@
+Sample ID: RNA_ISO_05_FCA3
+Organism: Human orthopneumovirus (RSV)
+Taxonomy ID: 11250
+Strain/Lineage: hRSV/A/EGY/MAN-08/2026
+Nucleic Acid Type: Viral RNA
+Extraction Method: QIAamp Viral RNA Mini Kit
+Quality & Concentration: Concentration: 40 ng/µL, A260/280: 2.1, RIN: 8.1
+Sequencing Platform: Illumina NextSeq 2000
+Collection Date: 2026-05-22
+Geographic Location: Egypt: Alexandria
+Isolation Source: Nasal aspirate
+Host Species: Homo sapiens (Infant, 8 months)
+Host Health State: Symptomatic (Bronchiolitis)
+Antimicrobial Resistance (AMR): N/A
+Biosafety Level: BSL-2

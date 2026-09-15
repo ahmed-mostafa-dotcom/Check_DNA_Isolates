@@ -1,0 +1,15 @@
+Sample ID: DNA_ISO_08_9073
+Organism: Pseudomonas aeruginosa
+Taxonomy ID: 287
+Strain/Lineage: PA-EGY-WWT-01
+Nucleic Acid Type: Genomic DNA
+Extraction Method: DNeasy Blood & Tissue Kit
+Quality & Concentration: Concentration: 120 ng/µL, A260/280: 1.85, A260/230: 2.1
+Sequencing Platform: Illumina NovaSeq 6000 (Shotgun Metagenomics)
+Collection Date: 2026-01-15
+Geographic Location: Egypt: Cairo
+Isolation Source: Hospital wastewater
+Host Species: N/A (Environmental)
+Host Health State: N/A
+Antimicrobial Resistance (AMR): MDR (Meropenem, Ciprofloxacin resistant)
+Biosafety Level: BSL-2

@@ -1,0 +1,15 @@
+Sample ID: DNA_ISO_10_B4C1
+Organism: Escherichia coli O157:H7
+Taxonomy ID: 83334
+Strain/Lineage: Ecoli-EGY-AGR-05
+Nucleic Acid Type: Genomic DNA
+Extraction Method: CTAB protocol
+Quality & Concentration: Concentration: 150 ng/µL, A260/280: 1.9, A260/230: 2.2
+Sequencing Platform: Illumina MiSeq
+Collection Date: 2026-04-05
+Geographic Location: Egypt: Cairo
+Isolation Source: Agricultural soil
+Host Species: N/A (Environmental)
+Host Health State: N/A
+Antimicrobial Resistance (AMR): Ampicillin resistant
+Biosafety Level: BSL-2

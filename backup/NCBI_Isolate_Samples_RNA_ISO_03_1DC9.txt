@@ -1,0 +1,15 @@
+Sample ID: RNA_ISO_03_1DC9
+Organism: Hepatitis C virus genotype 4a
+Taxonomy ID: 31652
+Strain/Lineage: HCV-4a/EGY/ALX-55/2026
+Nucleic Acid Type: Viral RNA
+Extraction Method: Roche High Pure Viral RNA Kit
+Quality & Concentration: Concentration: 25 ng/µL, A260/280: 1.9, RIN: 7.9
+Sequencing Platform: Illumina MiSeq
+Collection Date: 2026-07-30
+Geographic Location: Egypt: Giza
+Isolation Source: Blood plasma
+Host Species: Homo sapiens
+Host Health State: Chronic infection, Asymptomatic
+Antimicrobial Resistance (AMR): N/A
+Biosafety Level: BSL-2

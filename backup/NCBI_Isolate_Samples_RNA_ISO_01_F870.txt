@@ -1,0 +1,15 @@
+Sample ID: RNA_ISO_01_F870
+Organism: Severe acute respiratory syndrome coronavirus 2
+Taxonomy ID: 2697049
+Strain/Lineage: SARS-CoV-2/human/EGY/CAI-01/2026
+Nucleic Acid Type: Viral RNA
+Extraction Method: QIAamp Viral RNA Mini Kit
+Quality & Concentration: Concentration: 45 ng/µL, A260/280: 2.1, RIN: 8.5
+Sequencing Platform: Illumina NovaSeq 6000
+Collection Date: 2026-09-01
+Geographic Location: Egypt: Gharbia, El-Mahalla El-Kubra
+Isolation Source: Nasopharyngeal swab
+Host Species: Homo sapiens
+Host Health State: Symptomatic (fever, cough)
+Antimicrobial Resistance (AMR): N/A
+Biosafety Level: BSL-3

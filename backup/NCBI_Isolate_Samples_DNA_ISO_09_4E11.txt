@@ -1,0 +1,15 @@
+Sample ID: DNA_ISO_09_4E11
+Organism: Human alphaherpesvirus 1 (HSV-1)
+Taxonomy ID: 10298
+Strain/Lineage: HSV1/EGY/CAI-77/2026
+Nucleic Acid Type: Genomic DNA
+Extraction Method: QIAamp DNA Mini Kit
+Quality & Concentration: Concentration: 50 ng/µL, A260/280: 1.88, A260/230: 2.0
+Sequencing Platform: PacBio Sequel IIe
+Collection Date: 2026-01-15
+Geographic Location: Egypt: Mansoura
+Isolation Source: Vesicle fluid swab
+Host Species: Homo sapiens
+Host Health State: Symptomatic (Cold sores)
+Antimicrobial Resistance (AMR): Acyclovir sensitive
+Biosafety Level: BSL-2

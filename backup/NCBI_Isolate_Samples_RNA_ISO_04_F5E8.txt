@@ -1,0 +1,15 @@
+Sample ID: RNA_ISO_04_F5E8
+Organism: Zika virus
+Taxonomy ID: 64320
+Strain/Lineage: ZIKV/Aedes/EGY/ASW-12/2026
+Nucleic Acid Type: Viral RNA
+Extraction Method: Trizol Reagent
+Quality & Concentration: Concentration: 50 ng/µL, A260/280: 2.0, RIN: 8.8
+Sequencing Platform: PacBio Sequel IIe
+Collection Date: 2026-05-22
+Geographic Location: Egypt: Cairo
+Isolation Source: Whole mosquito homogenate
+Host Species: Aedes aegypti
+Host Health State: N/A
+Antimicrobial Resistance (AMR): N/A
+Biosafety Level: BSL-2

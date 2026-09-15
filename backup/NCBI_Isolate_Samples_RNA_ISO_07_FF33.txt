@@ -1,0 +1,15 @@
+Sample ID: RNA_ISO_07_FF33
+Organism: Rabies lyssavirus
+Taxonomy ID: 11220
+Strain/Lineage: RABV/Dog/EGY/GIZ-03/2026
+Nucleic Acid Type: Viral RNA
+Extraction Method: Direct-zol RNA Miniprep
+Quality & Concentration: Concentration: 35 ng/µL, A260/280: 1.95, RIN: 7.5
+Sequencing Platform: Oxford Nanopore MinION
+Collection Date: 2026-05-22
+Geographic Location: Egypt: Aswan
+Isolation Source: Brain tissue homogenate
+Host Species: Canis lupus familiaris
+Host Health State: Symptomatic (Aggressive behavior, deceased)
+Antimicrobial Resistance (AMR): N/A
+Biosafety Level: BSL-3

@@ -1,0 +1,15 @@
+Sample ID: RNA_ISO_06_DAA3
+Organism: Avian Orthoavulavirus 1 (Newcastle disease virus)
+Taxonomy ID: 11118
+Strain/Lineage: NDV/Chicken/EGY/SHQ-22/2026
+Nucleic Acid Type: Viral RNA
+Extraction Method: Viral RNA Extraction Kit (Qiagen)
+Quality & Concentration: Concentration: 60 ng/µL, A260/280: 2.05, RIN: 9.0
+Sequencing Platform: Illumina NovaSeq 6000
+Collection Date: 2026-05-22
+Geographic Location: Egypt: Aswan
+Isolation Source: Tracheal swab
+Host Species: Gallus gallus domesticus
+Host Health State: Symptomatic (Respiratory distress, torticollis)
+Antimicrobial Resistance (AMR): N/A
+Biosafety Level: BSL-2+

@@ -1,0 +1,15 @@
+Sample ID: RNA_ISO_02_AC5C
+Organism: Influenza A virus (H1N1)
+Taxonomy ID: 11320
+Strain/Lineage: A/Egypt/104/2026(H1N1)
+Nucleic Acid Type: Viral RNA
+Extraction Method: MagNA Pure 96 RNA and Viral NA Small Volume Kit
+Quality & Concentration: Concentration: 30 ng/µL, A260/280: 2.0, RIN: 8.2
+Sequencing Platform: Oxford Nanopore MinION
+Collection Date: 2026-01-15
+Geographic Location: Egypt: Gharbia, El-Mahalla El-Kubra
+Isolation Source: Oropharyngeal swab
+Host Species: Homo sapiens
+Host Health State: Symptomatic (fever, muscle ache)
+Antimicrobial Resistance (AMR): Oseltamivir sensitive
+Biosafety Level: BSL-2
